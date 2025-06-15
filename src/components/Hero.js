@@ -2,9 +2,7 @@ import React, { useState } from 'react';
 
 const Hero = () => {
   const [currentText] = useState('');
-  const [] = useState(false);
-  const [] = useState(0);
-  const [] = useState(0);
+  
 
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);

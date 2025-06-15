@@ -25,12 +25,7 @@ const About = () => {
     };
   }, []);
 
-  const stats = [
-    { number: '50+', label: 'Projects Completed' },
-    { number: '3+', label: 'Years Experience' },
-    { number: '25+', label: 'Happy Clients' },
-    { number: '15+', label: 'Technologies' }
-  ];
+  
 
   return (
     <section className="section" id="about" ref={aboutRef}>
