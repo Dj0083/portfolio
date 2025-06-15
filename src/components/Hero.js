@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 const Hero = () => {
-  const [currentText, setCurrentText] = useState('');
-  const [isDeleting, setIsDeleting] = useState(false);
-  const [textIndex, setTextIndex] = useState(0);
-  const [charIndex, setCharIndex] = useState(0);
+  const [currentText] = useState('');
+  const [] = useState(false);
+  const [] = useState(0);
+  const [] = useState(0);
 
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
@@ -39,7 +39,7 @@ const Hero = () => {
               <span>→</span>
             </button>
 
-            {/* ✅ Replaces old fake download function */}
+            
             <a 
               href="/CV.pdf" 
               download="Dulani-Jayakody-CV.pdf"
@@ -74,7 +74,7 @@ const Hero = () => {
         }
 
         .btn {
-          padding: 12px 24px;
+          padding: 22px 24px;
           font-weight: bold;
           border-radius: 8px;
           cursor: pointer;
